@@ -1,4 +1,35 @@
+/*universal page styling*/
 * {
   text-align: center;
   background-color: black;
+  font-family: Verdana;
+}
+
+/*main header styling*/
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+/*special sub-header sytling*/
+h1.sub {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+/*download link styling*/
+.download {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+/*regular text styling*/
+p,
+#copyright {
+  font-size: 21px;
+  color: gray;
+}
+
+#copyright {
+  text-align: right;
 }
